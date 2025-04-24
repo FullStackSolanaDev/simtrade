@@ -2,12 +2,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0d0d0d; /* Dark background for body */
+  background-color: #000000; /* Full black background */
   color: #00ff99; /* Green text */
   font-family: 'Courier New', monospace;
   overflow-x: hidden;
 }
 
+/* Ensure all sections have black background */
 .container {
   width: 90%;
   max-width: 960px;
@@ -20,7 +21,7 @@ body {
 header.container {
   padding-top: 4rem;
   text-align: center;
-  background-color: transparent; /* Ensure header doesn't have grey background */
+  background-color: transparent; /* Transparent header */
 }
 
 header h1 {
@@ -35,7 +36,7 @@ header p {
 
 /* Section Styles */
 section {
-  background-color: #0d0d0d; /* Sections will have a dark background */
+  background-color: #000000; /* Ensuring all sections are black */
   width: 100%;
   padding: 4rem 0;
   box-sizing: border-box;
@@ -77,6 +78,6 @@ footer {
   border-top: 2px solid #00ff99;
   margin-top: 2rem;
   width: 100%;
-  background-color: #0d0d0d;
+  background-color: #000000; /* Full black background */
   box-sizing: border-box;
 }
