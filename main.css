@@ -41,6 +41,21 @@ body {
   padding: 2rem 0;
 }
 
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 2px solid #00ff99;
+  margin-top: 2rem;
+  width: 100%; /* Ensure the footer spans the full width */
+  background-color: #0d0d0d; /* Dark background to match the body */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  margin-left: calc(-50vw + 50%); /* Remove grey space by aligning with viewport */
+  padding-left: 0; /* Remove left padding if needed */
+  padding-right: 0; /* Remove right padding if needed */
+}
+
+
 /* Ensure Sections are Full Height */
 section {
   background-color: #0d0d0d; /* Dark background for sections */
