@@ -2,9 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0d0d0d;
-  background: url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
-  color: #00ff99;
+  background-color: #0d0d0d; /* Dark background for body */
+  color: #00ff99; /* Green text */
   font-family: 'Courier New', monospace;
   overflow-x: hidden;
 }
@@ -17,16 +16,11 @@ body {
   box-sizing: border-box;
 }
 
-section {
-  background-color: #0d0d0d;
-  width: 100%;
-  padding: 4rem 0;
-  box-sizing: border-box;
-}
-
+/* Header */
 header.container {
   padding-top: 4rem;
   text-align: center;
+  background-color: transparent; /* Ensure header doesn't have grey background */
 }
 
 header h1 {
@@ -37,6 +31,14 @@ header h1 {
 header p {
   font-size: 1.2rem;
   margin: 0;
+}
+
+/* Section Styles */
+section {
+  background-color: #0d0d0d; /* Sections will have a dark background */
+  width: 100%;
+  padding: 4rem 0;
+  box-sizing: border-box;
 }
 
 /* Button Styles */
