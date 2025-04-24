@@ -1,11 +1,10 @@
 /* Global Styles */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #000000; /* Full black background */
-  color: #00ff99; /* Green text */
-  font-family: 'Courier New', monospace;
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Solid black background */
+    color: #00ff99;
+    font-family: 'Courier New', monospace;
 }
 
 /* Ensure all sections have black background */
