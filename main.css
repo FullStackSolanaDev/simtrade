@@ -25,18 +25,7 @@ body {
   margin: 0; /* Ensure no margins on mobile */
 }
 
-/* Fix potential white space issue on mobile */
-@media (max-width: 768px) {
-  .hero {
-    height: 100vh; /* Ensure the hero takes up the full viewport height */
-  }
-
-  /* Make sure the hero content is centered */
-  .hero .overlay {
-    padding: 1rem; /* Adjust padding for better visibility */
-  }
-}
-
+/* Hero Section Overlay */
 .hero .overlay {
   background-color: rgba(0, 0, 0, 0.8);
   min-height: 100vh; /* Ensure overlay fills the hero section */
@@ -46,6 +35,31 @@ body {
   justify-content: center;
   padding: 2rem;
   text-align: center;
+  width: 100%; /* Full width */
+}
+
+/* Fix potential white space issue on mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh; /* Ensure the hero takes up the full viewport height */
+  }
+
+  /* Adjust the padding for better visibility on mobile */
+  .hero .overlay {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Smaller font size for smaller screens */
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button size */
+  }
 }
 
 /* Container for other sections */
@@ -68,8 +82,8 @@ footer {
   margin-left: calc(-50vw + 50%); /* Remove grey space by aligning with viewport */
   padding-left: 0; /* Remove left padding if needed */
   padding-right: 0; /* Remove right padding if needed */
+  overflow: hidden; /* Prevent overflow */
 }
-
 
 /* Ensure Sections are Full Height */
 section {
