@@ -1,12 +1,11 @@
 /* Global Styles */
 body {
-    margin: 0;
-    font-family: 'Courier New', monospace;
-    background-color: #0d0d0d;
-    color: #00ff99;
-    line-height: 1.6;
-    background: url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  background: url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
+  color: #00ff99;
+  font-family: 'Courier New', monospace;
 }
 
 .container {
@@ -17,10 +16,11 @@ body {
 }
 
 section {
-    background-color: #0d0d0d;
-    padding: 5rem 0;
-    width: 100%;
-    box-sizing: border-box;
+  background-color: #0d0d0d;
+  width: 100vw;
+  padding: 5rem 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Hero Section */
