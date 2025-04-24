@@ -112,3 +112,8 @@ footer {
     padding-left: 0;
     padding-right: 0;
 }
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
