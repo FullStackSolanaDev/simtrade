@@ -7,6 +7,8 @@ body {
   line-height: 1.6;
   background: url('https://www.transparenttextures.com/patterns/diagonal-noise.png') repeat;
   overflow-x: hidden; /* Prevent horizontal scroll */
+  padding-top: 0; /* Prevents any unwanted space on top */
+  box-sizing: border-box; /* Ensures padding and margins are included in width/height calculations */
 }
 
 /* Container */
@@ -122,6 +124,7 @@ section {
   background-color: #0d0d0d; /* Dark background for sections */
   padding: 5rem 0;
   width: 100%; /* Ensure section spans full width */
+  margin-top: 0; /* Remove any margin above the section */
 }
 
 /* Make sure the Hero Section is responsive */
@@ -140,5 +143,10 @@ section {
 
   .btn {
     padding: 0.5rem 1rem; /* Adjust button size */
+  }
+
+  /* Remove unwanted space after hero */
+  body {
+    padding-top: 0; /* No extra padding at the top */
   }
 }
