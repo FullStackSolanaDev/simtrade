@@ -15,11 +15,26 @@ body {
   background-size: cover; /* Ensure image scales well */
   background-position: center; /* Center image */
   background-repeat: no-repeat;
-  min-height: 100vh; /* Ensures the hero section is at least full viewport height */
+  height: 100vh; /* Full viewport height */
   position: relative;
-  width: 100vw; /* Ensure it spans the full viewport width */
-  margin-left: calc(-50vw + 50%); /* Fix issue of being constrained to container */
   overflow: hidden;
+  display: flex; /* Ensure the content is centered correctly */
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure full width on all devices */
+  margin: 0; /* Ensure no margins on mobile */
+}
+
+/* Fix potential white space issue on mobile */
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh; /* Ensure the hero takes up the full viewport height */
+  }
+
+  /* Make sure the hero content is centered */
+  .hero .overlay {
+    padding: 1rem; /* Adjust padding for better visibility */
+  }
 }
 
 .hero .overlay {
